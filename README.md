@@ -1,4 +1,4 @@
-# demo
+# Demo
 This is my git demo repo
 <br>
 author - sujeet vistas
