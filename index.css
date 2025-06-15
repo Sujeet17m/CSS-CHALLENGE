@@ -19,12 +19,40 @@ p {
 
 .spoiler{
     background-color: #000;
+    transition: .5s ease-in-out;    
 }
 
 .spoiler:hover{
     background: none;
-    transition: 1s;
+
 }
 
+/*Right one*/
+
+/* :root {
+  --spoiler-color: #000;
+}
+
+p {
+  line-height: 1.5em;
+} 
+
+.post {
+  background: #e8eaed;
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+.spoiler {
+  background: var(--spoiler-color);
+  color: var(--spoiler-color);
+  transition: all .5s ease-in;
+}
+
+.spoiler:hover {
+  background: initial;
+  color: initial;
+} */
 
 
