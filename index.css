@@ -104,7 +104,7 @@ body {
     border-image-slice: 1; */
 }
 
-/* Hover Effects */
+/*Hover Effects*/
 .button-border:hover {
     background: linear-gradient(110deg, 
         var(--grad-color5), 
