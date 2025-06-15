@@ -1,0 +1,30 @@
+
+
+body{
+    background-color: #fff;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.post{
+    background-color: #bebebe;
+    border: none;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+.spoiler{
+    background-color: #000;
+}
+
+.spoiler:hover{
+    background: none;
+    transition: 1s;
+}
+
+
+
