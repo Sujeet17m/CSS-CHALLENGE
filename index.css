@@ -1,4 +1,4 @@
-/* html, body {
+html, body {
     margin: 0;
     padding: 0;
 }
@@ -51,10 +51,10 @@
     overflow: hidden;
     clip:rect(0 0 0 0);
     border: 0;
-} */
+}
 
 
-html, body {
+/* html, body {
     margin: 0;
     padding: 0;
 }
@@ -103,7 +103,7 @@ html, body {
 
 .search-bar:focus::placeholder {
     color: transparent;
-}
+} */
 
 
 
