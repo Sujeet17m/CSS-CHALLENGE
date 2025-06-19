@@ -40,7 +40,7 @@
     }
 } */
 
-:root {
+/* :root {
     --black: #282828; 
     --blue: #2892f9; 
     --red: #fb2f27;
@@ -91,7 +91,57 @@ html, body {
     width: 8em;
     height: 8em;
     border-radius: 50%;
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
+
+:root {
+    --bg-word: #5134ff;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1:after {
+    content: "";
+    animation: 6s swap infinite;
+    background: var(--bg-word);
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+@keyframes swap {
+    0%{
+        content: "Playing";
+    }
+
+    25%{
+        content: "Laughing";
+    }
+    50%{
+        content: "Niya";
+        background: rgb(235, 12, 164);
+    }
+    75%{
+        content: "Coding";
+    }
+    100%{
+        content: "Playing";
+    }
+
+}
+
+
+
 
 
 
