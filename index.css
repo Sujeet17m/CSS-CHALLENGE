@@ -140,7 +140,7 @@ h1:after {
 
 } */
 
-html, body {
+/* html, body {
     margin: 0;
     padding: 0;
     background: black;
@@ -153,18 +153,13 @@ html, body {
     --flag-height: 150px;
 }
 
-/* .flag-france{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 
 .flag-france {
     height: var(--flag-height);
     width: calc(var(--flag-height) * 3/2);
     margin: 2em auto;
-    /* display: flex; */
+    
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
 }
@@ -183,6 +178,46 @@ html, body {
 
 .white {
     background: var(--white);
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --black: #000000;
+    --red: #DE0002;
+    --yellow: #FFCE00;
+    --flag-height: 150px;
+}
+
+.flag-germany{
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 5/3);
+    /* display: flex;
+    flex-direction: column; */
+    margin: 30px auto;
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+.stripe{
+    flex-grow: 1;
+    
+}
+
+.black{
+    background: var(--black);
+}
+
+.yellow{
+    background: var(--yellow);
+}
+
+.red{
+    background: var(--red);
 }
 
 
